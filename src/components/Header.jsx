@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 const Header = () => {
@@ -16,10 +16,10 @@ const Header = () => {
               <Navbar.Toggle aria-controls="navbarMenu" />
               <Navbar.Collapse id="navbarMenu" className="justify-content-end text-center">
                   <Nav>
-                      <Nav.Link href="#">Home</Nav.Link>
-                      <Nav.Link href="#">Progetti</Nav.Link>
-                      <Nav.Link href="#">Contatti</Nav.Link>
-                      <Nav.Link href="#">Social</Nav.Link>
+                          <NavLink to="/" className='text-decoration-none p-1'>Home</NavLink>
+                          <NavLink to="/projects" className='text-decoration-none p-1'>Progetti</NavLink>
+                          <NavLink to="/contacts" className='text-decoration-none p-1'>Contatti</NavLink>
+                          <NavLink to="/social" className='text-decoration-none p-1'>Social</NavLink>
                   </Nav>
               </Navbar.Collapse>
           </Container>
