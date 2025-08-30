@@ -1,10 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { Link } from 'react-router-dom';
 const Homepage = () => {
     return (
         <div>
-            <h1 className='text-success'>Welcome to the Homepage</h1>
-            <p>This is the main content of the homepage.</p>
+            <h1 className='text-success text-center'>Welcome to the Homepage</h1>
+            <div className='d-flex justify-content-evenly bg-body-secondary p-3'>
+                <div className=''><Link to="/projects">Projects</Link></div>
+                <div className=''><Link to="/contacts">Contacts</Link></div>
+                <div className=''><Link to="/social">Social</Link></div>
+                <div className=''><Link to="/story">MyProfile</Link></div>
+            </div>
         </div>
     );
 }

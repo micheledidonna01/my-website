@@ -11,3 +11,40 @@
 .active {
   color: #fff;
 }
+
+
+/*************
+STORY PAGE
+*************/
+
+.schoolbg {
+  background-image: url('../../public/school.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.workbg {
+  background-image: url('../../public/lavoro-ufficio.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.workbg:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.schoolbg:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
