@@ -7,6 +7,8 @@ import Projectspage from './pages/Projectspage';
 import Contactspage from './pages/Contactspage';
 import Socialpage from './pages/Socialpage';
 import StoryPage from './pages/StoryPage';
+import WorkPage from './pages/WorkPage';
+import SchoolPage from './pages/SchoolPage';
 function App() {
 
   return (
@@ -18,7 +20,11 @@ function App() {
             <Route path='projects' element={<Projectspage />} />
             <Route path='contacts' element={<Contactspage />} />
             <Route path='social' element={<Socialpage />} />
-            <Route path='story' element={<StoryPage />} />
+          </Route>
+          <Route path='/story' element={<DefaultLayout />} >
+            <Route index element={<StoryPage />} />
+            <Route path='work' element={<WorkPage />} />
+            <Route path='school' element={<SchoolPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

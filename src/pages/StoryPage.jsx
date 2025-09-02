@@ -33,8 +33,8 @@ export default function StoryPage() {
             <div className="my-4 bg-body-secondary border-3 p-1 rounded">
                 <h2 className="bg-warning border-3 p-3 rounded">The point:</h2>
                 <div className="d-flex justify-content-between mb-4" ref={descRef}>
-                    <Link to='/school' className="schoolbg d-flex justify-content-center align-items-center">School</Link>
-                    <Link to='/work' className="workbg d-flex justify-content-center align-items-center">Work</Link>
+                    <Link to='/story/school' className="schoolbg d-flex justify-content-center align-items-center">School</Link>
+                    <Link to='/story/work' className="workbg d-flex justify-content-center align-items-center">Work</Link>
                 </div>
             </div>
         </div>
