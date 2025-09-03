@@ -41,7 +41,7 @@ function Footer() {
                                 Developer Mike
                             </Link>
                         </p>
-                        <p className="mb-1">Cellulare: 3388546403</p>
+                        <p className="mb-1">Cellulare: <a href="tel:3388546403" className="text-decoration-none text-secondary">3388546403</a></p>
                         <p className="mb-1">
                             Nel caso vi sia piaciuto il mio profilo, o volete contattarmi per qualsiasi cosa, mandate una mail a:
                         </p>

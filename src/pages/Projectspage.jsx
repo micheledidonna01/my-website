@@ -3,7 +3,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Projectspage = () => {
     return (
-        <div className='p-3'>
+        <div className='p-3 projects'>
             <h1>Projects Page</h1>
             <p>
                 This is the projects page where you can find various projects.

@@ -5,7 +5,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 const Header = () => {
 
   return <>
-      <nav>
+      <nav className='position-fixed top-0 w-100 '>
 
       <Navbar bg="dark" variant="dark" expand="lg">
           <Container>

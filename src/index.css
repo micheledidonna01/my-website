@@ -2,6 +2,10 @@
   font-weight: bold;
 }
 
+header{
+  z-index: 9999;
+}
+
 .text-decoration-none {
   color: #6C757D;
   text-decoration: none;
@@ -16,14 +20,15 @@
 PROJECTS PAGE
 *************/
 
-.card-dwml{
-  font-family:'Courier New', Courier, monospace;
+.card-dwml {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.bi-download:hover{
+.bi-download:hover {
   zoom: 1.1;
   color: #227ccb;
 }
+
 /*************
 STORY PAGE
 *************/
@@ -59,4 +64,17 @@ STORY PAGE
 .schoolbg:hover {
   cursor: pointer;
   opacity: 0.9;
+}
+
+
+/***************
+WORK PAGE
+***************/
+.work-img{
+  z-index: 1;
+}
+
+
+.contact, .home, .projects, .school, .social, .page , .work {
+  margin-top: 120px;
 }
